@@ -45,7 +45,7 @@ function update (event){
      if(event.keyCode == 39 && direction != "left")direction = "right";
      if(event.keyCode == 40 && direction != "up") direction = "down";
 }
-alert("Para jogar utilize as setas para movitmentar. Bom jogo :) ");
+alert("Para jogar utilize as setas para movimentar. Bom jogo :) ");
 //Função que inicia o jogo
 function iniciarJogo(){
     //Condicionais que permitir a snake continuar na tela, sair e voltar. 
